@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct AccelTestApp: App {
+    var model = AccelModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(model: model)
         }
+    }
+    
+    init() {
+        model.start()
     }
 }

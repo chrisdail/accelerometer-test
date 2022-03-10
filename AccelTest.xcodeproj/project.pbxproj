@@ -13,6 +13,7 @@
 		8328CC8625AC82690091552C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8328CC8525AC82690091552C /* Preview Assets.xcassets */; };
 		8328CC9125AC82690091552C /* AccelTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328CC9025AC82690091552C /* AccelTestTests.swift */; };
 		8328CC9C25AC82690091552C /* AccelTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8328CC9B25AC82690091552C /* AccelTestUITests.swift */; };
+		83A87D2E25AC923500CFAB64 /* AccelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A87D2D25AC923500CFAB64 /* AccelModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8328CC9725AC82690091552C /* AccelTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8328CC9B25AC82690091552C /* AccelTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelTestUITests.swift; sourceTree = "<group>"; };
 		8328CC9D25AC82690091552C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A87D2D25AC923500CFAB64 /* AccelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8328CC8225AC82690091552C /* Assets.xcassets */,
 				8328CC8725AC82690091552C /* Info.plist */,
 				8328CC8425AC82690091552C /* Preview Content */,
+				83A87D2D25AC923500CFAB64 /* AccelModel.swift */,
 			);
 			path = AccelTest;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				8328CC8125AC82670091552C /* ContentView.swift in Sources */,
 				8328CC7F25AC82670091552C /* AccelTestApp.swift in Sources */,
+				83A87D2E25AC923500CFAB64 /* AccelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AccelTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 5462HM4U8D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AccelTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AccelTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 5462HM4U8D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AccelTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
