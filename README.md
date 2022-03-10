@@ -1,2 +1,3 @@
 # accelerometer-test
-Testing iphone accelerometer
+
+Test iPhone accelerometer app to check max G-force and frequency.
